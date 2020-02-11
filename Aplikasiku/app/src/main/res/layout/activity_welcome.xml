@@ -7,4 +7,19 @@
 	android:layout_height="match_parent"
 	tools:context=".WelcomeActivity">
 
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:srcCompat="@drawable/ic_logo"
+		tools:layout_editor_absoluteX="131dp"
+		tools:layout_editor_absoluteY="253dp" />
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="POLITEKNIK NEGERI MALANG"
+		tools:layout_editor_absoluteX="110dp"
+		tools:layout_editor_absoluteY="469dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
